@@ -52,7 +52,7 @@ Product::Product(const Product &product) {
 
 string Product::ToString() const {
     stringstream ss;
-    ss << "{\"id\":\"" << _id << "\", \"category\":\"" << _category << "\", \"price\":" << _price << ", \"description\":" << _description << "\"}";
+    ss << "{\"id\":\"" << _id << "\", \"category\":\"" << _category << "\", \"price\":" << _price << ", \"description\":\"" << _description << "\"}";
     return ss.str();
 }
 
