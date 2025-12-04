@@ -17,7 +17,7 @@ int main() {
     map["FFGARQ"] = new Product("FFGARQ","CFG4", 19.99, "Flux Capacitor");
     map["GHJKK1"] = new Product("GHJKK1","CFG4", 19.99, "Flux Capacitor");
     map["BCC44F"] = new Product("BCC44F","CFG4", 19.99, "Flux Capacitor");
-    map["KLSEW1"] = new Product("KLSEW1","CFG4", 19.99, "Flux Capacitor");
+    map["KPSEW1"] = new Product("KLSEW1","CFG4", 19.99, "Flux Capacitor");
     map["PETR77"] = new Product("PETR77","CFG4", 19.99, "Flux Capacitor");
 
     cout << "Output the elements of the Hash Table" << endl;
