@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch main",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/map",
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "build with make",
+            "stopAtEntry": false
+        }
+    ]
+}
